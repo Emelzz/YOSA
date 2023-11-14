@@ -1,10 +1,11 @@
 import React from "react";
-import Aboutimg from "../assets/pexels-kindel-media-7456788.jpg";
+import Aboutimg from "../assets/pexels-anna-shvets-5231143.jpg";
 import { SiAtom } from "react-icons/si";
 import { RiRobot2Line } from "react-icons/ri";
 import { FaUniversity } from "react-icons/fa";
 import { BsFileEarmarkSpreadsheet } from "react-icons/bs";
 import { PiTreeFill } from "react-icons/pi";
+import { MdHandshake } from "react-icons/md";
 import img1 from "../assets/community.jpg";
 import img2 from "../assets/campaign2.jpg";
 import img3 from "../assets/Maintreeplanting.jpg";
@@ -20,7 +21,7 @@ const About = () => {
           <div className="grid md:grid-cols-2  justify-start   pt-4 pb-4">
             <div>
               <img
-                className="border-[1.2rem] border-[#418607] md:border-none rounded-full md:rounded-none h-[30rem] w-[30rem] object-cover object-top"
+                className="border-[1.2rem] border-[#418607] md:border-none rounded-full md:rounded-none h-[30rem] w-[30rem] md:h-[36rem] object-cover object-top"
                 src={Aboutimg}
                 alt="About"
               />
@@ -62,7 +63,7 @@ const About = () => {
         </div>
         <div className="text-center md:text-left">
           <h1 className="text-3xl md:text-[2.45rem] text-[#333] font-bold gap-[1rem] mt-11">
-            OUR <span className="ml-4 text-[#11661f]">APPROACH</span>
+            OUR<span className="ml-4 text-[#11661f]">APPROACH</span>
           </h1>
           <div className="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2 gap-2 pt-8  ">
             <div className="flex flex-col items-center gap-4 p-8 hover:shadow-xl shadow-[#333] hover:scale-110 ease-in-out duration-500 rounded-md">
@@ -111,12 +112,21 @@ const About = () => {
                 with our community
               </div>
             </div>
+            <div className="flex flex-col items-center gap-4 p-8 hover:shadow-xl shadow-[#333] hover:scale-110 ease-in-out duration-700 rounded-md">
+              <div>
+                <MdHandshake className="text-[#0d3a15] h-[3.5rem] w-[3.5rem]  md:h-[5rem] md:w-[5rem] " />
+              </div>
+              <div className="text-center md:text-left">
+                Extending our hand in friendship, forging powerful partnerships
+                for collective impact
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <div className="mb-[6rem]">
             <h1 className="text-3xl md:text-[2.45rem] text-[#333] font-bold gap-[1rem] mt-11">
-              AIMS <span className="ml-4 text-[#11661f]">&</span> OBJECTIVES
+              AIMS<span className="ml-4 text-[#11661f]">&</span> OBJECTIVES
             </h1>
           </div>
           <div className="grid md:grid-cols-3 md:grid-rows-2 gap-7">

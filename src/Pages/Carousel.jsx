@@ -1,24 +1,22 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import carousel1 from "../assets/analysis.jpg";
 import carousel2 from "../assets/campaign.jpg";
 import carousel3 from "../assets/massmedia.jpg";
+import sustain from "../assets/sustain.jpg";
 
 const Carousels = () => {
   return (
     <Carousel infiniteLoop className="text-center">
       <div>
         <img
-          src={carousel1}
+          src={sustain}
           className="object-cover h-[72vh] w-full bg-top"
           alt="carousel first view"
         />
         <p className="legend ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-          magni officiis necessitatibus mollitia doloremque animi nam distinctio
-          quia perspiciatis corrupti itaque sequi quis esse qui ut, ipsum nemo
-          consequuntur aliquid.
+          Cultivating Agricultural Sustainability Across Generations: Harvesting
+          Wisdom, Nurturing Tomorrow's Resilience
         </p>
       </div>
       <div>
@@ -27,7 +25,10 @@ const Carousels = () => {
           className="object-cover h-[72vh] w-full bg-top"
           alt="carousel second view"
         />
-        <p className="legend">Legend 2</p>
+        <p className="legend">
+          Seeding Sustainability, Nourishing Generations: Cultivating a Thriving
+          Future through Sustainable Agriculture
+        </p>
       </div>
       <div>
         <img
@@ -35,7 +36,10 @@ const Carousels = () => {
           className="object-cover h-[72vh] w-full bg-top"
           alt="carousel third view"
         />
-        <p className="legend">Legend 3</p>
+        <p className="legend">
+          Unlocking Potential, Feeding Tomorrow: Empowering Youth in Sustainable
+          Agriculture for a Hunger-Free Future.
+        </p>
       </div>
     </Carousel>
   );

@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 import upcoming1 from "../assets/pexels-anna-shvets-5231143.jpg";
 import Carousels from "./Carousel";
+import farmersmarket from "../assets/farmersmark.jpg";
+import workshop from "../assets/workshop.jpg";
+import gardeninit from "../assets/gardeninit.jpg";
+import tours from "../assets/tours.jpg";
+import competitions from "../assets/competitions.jpg";
+import camp from "../assets/camp.jpg";
+import screening from "../assets/screening.jpeg";
 import sample from "../assets/YOSATECH.mp4";
+import webinar from "../assets/weninar.jpg";
 
 const Activities = () => {
   const [playVideo, setplayVideo] = useState(false);
@@ -27,7 +35,7 @@ const Activities = () => {
             <div className=" overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={workshop}
                 className="   md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -59,7 +67,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={camp}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -69,7 +77,7 @@ const Activities = () => {
                 Youth Agriculture Camp
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Organize a vibrant and enriching summer camp for young people
                 with a fervent interest in agriculture. This exceptional camp is
                 not only an opportunity for participants to gain hands-on
@@ -95,7 +103,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={tours}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -105,7 +113,7 @@ const Activities = () => {
                 Sustainable Farm Tours
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Plan captivating and informative tours of sustainable farms
                 throughout the region, immersing participants in a diverse
                 tapestry of agricultural practices that exemplify the very
@@ -130,7 +138,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={webinar}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -140,7 +148,7 @@ const Activities = () => {
                 Online Webinars
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Host engaging and informative webinars featuring renowned
                 experts in the dynamic realm of sustainable agriculture. These
                 webinars serve as a platform for in-depth exploration, allowing
@@ -164,7 +172,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={gardeninit}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -174,7 +182,7 @@ const Activities = () => {
                 Community Garden Initiatives
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Forge meaningful partnerships with local communities to create
                 and cultivate vibrant community gardens, transforming these
                 green spaces into hubs of sustainable agricultural education and
@@ -198,7 +206,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={competitions}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -208,7 +216,7 @@ const Activities = () => {
                 Youth Agriculture Competitions
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Energize the youth in your community by orchestrating
                 stimulating competitions that challenge their creative prowess
                 in devising groundbreaking solutions to the pressing challenges
@@ -232,7 +240,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={farmersmarket}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -242,7 +250,7 @@ const Activities = () => {
                 Farmers' Market
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Establish a vibrant and recurring farmers' market that not only
                 serves as a marketplace for local farmers to showcase their
                 bountiful, sustainable, and organic harvests but also creates a
@@ -306,7 +314,7 @@ const Activities = () => {
                 Green Technology Showcase
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Curate a remarkable event or exhibition that serves as a dynamic
                 platform for highlighting the cutting-edge innovations in
                 sustainable agriculture, unveiling a world of possibilities that
@@ -334,7 +342,7 @@ const Activities = () => {
             <div className="overflow-hidden">
               {" "}
               <img
-                src={upcoming1}
+                src={screening}
                 className="md:w-[20rem] md:h-[15rem] object-cover hover:scale-125 duration-700 ease-in-out"
                 alt="Farmers workshop series "
               />
@@ -344,7 +352,7 @@ const Activities = () => {
                 Sustainable Farming Documentary Screening
               </h3>
 
-              <p>
+              <p className="text-justify md:text-left">
                 Organize an event to showcase the latest green technologies and
                 innovations in agriculture, such as solar-powered irrigation
                 systems and smart farming apps. This immersive experience
