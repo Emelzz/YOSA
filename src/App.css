@@ -4,7 +4,7 @@
 
 
 .bg-img{
-  background-image: url("./assets/pexels-zen-chung-5528942.jpg");
+  background-image: url("./assets/YOSALAND.jpeg");
   height: 90vh;
   background-size: cover;
   /* position: relative; */
@@ -19,6 +19,39 @@
   background-color: rgba(0, 0, 0, 0.5); 
   z-index: 1; 
 
+}
+
+
+.titled_underline::after{
+    position:absolute;
+  content:'';
+  background: #418606;
+  height: 5px;
+  width: 130px;
+  right: 0;
+  bottom: -3%;
+  z-index: -1;
+}
+
+.carousel .thumb{
+
+  width:5%;
+  height:50px
+}
+
+.carousel .slide .legend{
+  background: #428606a4!important;
+  text-align: left !important;
+  font-size:1.2rem!important;
+  
+}
+
+.grid_functioning{
+
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  background: #f7fae0;
+  padding: 2rem 1rem
 }
 
 .icons{
@@ -39,6 +72,44 @@
   cursor: pointer;
 
 }
+
+.carousel1{
+background: linear-gradient(to right, rgb(0,0,0 / 0.8), rgb(0,0,0 / 0));
+background-image: url('./assets/pexels-pixabay-158603.jpg');
+height:80vh;
+background-position:center;
+background-size: cover;
+border-radius:40px;
+
+}
+
+.carousel2{
+  background: linear-gradient(to right, rgb(0,0,0 / 0.8), rgb(0,0,0 / 0));
+  background-image: url('./assets/campaign2.jpg');
+  height:80vh;
+  background-position:center;
+  background-size: cover;
+  border-radius:40px;
+  }
+
+  .carousel3{
+    background: linear-gradient(to right, rgb(0,0,0 / 0.8), rgb(0,0,0 / 0));
+    background-image: url('./assets/Maintreeplanting.jpg');
+    height:80vh;
+    background-position:center;
+    background-size: cover;
+    border-radius:40px;
+    
+    }
+    .carousel4{
+      background: linear-gradient(to right, rgb(0,0,0 / 0.8), rgb(0,0,0 / 0));
+      background-image: url('./assets/community.jpg');
+      height:80vh;
+      background-position:center;
+      background-size: cover;
+      border-radius:40px;
+      }
+    
 
 @media screen and (max-width:768px){
   .bg-img{

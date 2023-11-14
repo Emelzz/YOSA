@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/YOSA Logo.jpg";
+import logo from "../assets/YOSA.png";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 
@@ -15,30 +15,30 @@ const Navbar = () => {
       <div className="">
         {" "}
         <img
-          className=" h-[2rem] w-[2rem] md:h-[5rem] md:w-[5rem] object-cover"
+          className=" h-[2rem] w-[2rem] md:h-[5rem] md:w-[8rem] object-contain"
           src={logo}
           alt="Organization's Logo"
         />
       </div>
-      <div className="md:flex flex-row gap-[70px] hidden">
+      <div className="md:flex flex-row gap-[70px]  hidden mt-4">
         <Link to="/">
           {" "}
-          <ul className="cursor-pointer">Home</ul>
+          <ul className="cursor-pointer hover:text-[#418606]">Home</ul>
         </Link>
         <Link to="/about">
           {" "}
-          <ul className="cursor-pointer">About</ul>
+          <ul className="cursor-pointer hover:text-[#418606]">About</ul>
         </Link>
         <Link to="/membership">
-          <ul className="cursor-pointer">Membership</ul>
+          <ul className="cursor-pointer hover:text-[#418606]">Membership</ul>
         </Link>
         <Link to="/activities">
           {" "}
-          <ul className="cursor-pointer">Activities</ul>
+          <ul className="cursor-pointer hover:text-[#418606]">Activities</ul>
         </Link>
         <Link to="/contact">
           {" "}
-          <ul className="cursor-pointer">Contact Us</ul>
+          <ul className="cursor-pointer hover:text-[#418606]">Contact Us</ul>
         </Link>
       </div>
       <div className="flex md:hidden w-full justify-end">
@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
       </div>
       <Link to="/Support">
-        <div className="hidden md:flex border-[2.25px] cursor-pointer border-black py-2 px-6 hover:bg-[#184d18] hover:border-transparent hover:text-white ease-in duration-300">
+        <div className="hidden md:flex border-[2.25px] cursor-pointer border-black py-2 px-6 mt-2 hover:bg-[#184d18] hover:border-transparent hover:text-white ease-in duration-300">
           {" "}
           SUPPORT US
         </div>
