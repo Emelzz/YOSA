@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
-import upcoming1 from "../assets/pexels-anna-shvets-5231143.jpg";
 import Carousels from "./Carousel";
 import farmersmarket from "../assets/farmersmark.jpg";
 import workshop from "../assets/workshop.jpg";
